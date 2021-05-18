@@ -7,7 +7,6 @@
     scroll-behavior: smooth;
     box-sizing:border-box;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 .header{
     min-height: 100vh;
@@ -458,6 +457,35 @@ nav .material-icons {
 .myprojects .cubic-icon-layout > a:hover i{
     transition: 0.5s;
     font-size: 50px;
+}
+
+@media(max-width: 700px){
+    .myprojects .cubic-icon-layout{
+        height: 75px;
+        width: 150px;
+    }
+    .myprojects-row {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .myprojects-column {
+        flex-basis: 31%;
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+    .myprojects h1 {
+        margin-top: 40px;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+    .myprojects .cubic-icon-layout > p{
+        /* margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        color:white; */
+        font-size: 13px;
+    }
 }
 
 /* ------ FOOTER ------ */
