@@ -528,6 +528,17 @@ nav .material-icons {
     width: 105px;
     margin: auto;
 }
+
+@media(max-width:700px){
+    .footer-column {
+        flex-basis: 15%;
+        margin-bottom: 5%;
+        padding: 6px 6px;
+    }
+    .footer-column i{
+        font-size: 28px;
+    }
+}
 /* .myprojects-column .cubic-icon-layout:hover p{
     transition:0.5s ease-in-out;
     display:none;
